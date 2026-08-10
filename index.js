@@ -1,21 +1,29 @@
 
-const countlabel = document.getElementById("countlabel");
-const decreasebtn = document.getElementById("decreasebtn");
-const resetbtn = document.getElementById("resetbtn");
-const increasebtn = document.getElementById("increasebtn");
+const mytext = document.getElementById("mytext");
+const mybutton = document.getElementById("mybutton");
+const myoutput = document.getElementById("myoutput");
+let age;
 
-let count = 0;
 
-increasebtn.onclick=function(){
-    count+=1;
-    countlabel.textContent = count;
+mybutton.onclick = function(){
+
+    age = mytext.value;
+    age = Number(age);
+
+
+    if(age >=100){
+    myoutput.textContent = "You are too Old to Enter this site"
 }
-resetbtn.onclick=function(){
-    count=0 ;
-    countlabel.textContent = count;
+    else if(age >= 18){
+    myoutput.textContent = "You are enough to Enter this site"
 }
-decreasebtn.onclick=function(){
-    count-=1;
-    countlabel.textContent = count;
+    else if(age < 0 ){
+    myoutput.textContent = "You are just born to Enter this site"
 }
+    else{
+    myoutput.textContent = "You must be Old to Enter this site"
+}
+}
+
+
 
