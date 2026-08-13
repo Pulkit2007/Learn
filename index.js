@@ -1,9 +1,19 @@
+// Diving into js objects lets see what it contains...
 
-const numbers = [1, 2, 3 , 4, 5, 6,7 ];
-
-const number = numbers.reduce(sum)
-console.log(number)
-
-function sum(prev, next){
-    return prev + next
+const person1 = {
+    firstName : "Mikasa",
+    lastName : "Ackerman",
+    age : 19,
+    isemployed : false,
+    speak : ()=> console.log("Erennnn")
 }
+const person2 = {
+    firstName : "levi",
+    lastName : "Ackerman",
+    age : 31,
+    isemployed : true,
+    speak : ()=> console.log("Zeekee")
+}
+
+person1.speak()
+person2.speak()
