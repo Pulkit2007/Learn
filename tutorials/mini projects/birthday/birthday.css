@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  color: #fffffc;
+  font-family: "Happy Monkey";
+  background-color: #a0c4ff;
+  text-shadow: 0px 0px 5px black;
+}
+
+#subject-img {
+  border: 10px solid #fdffb6;
+  border-radius: 100em;
+  width: 250px;
+}
