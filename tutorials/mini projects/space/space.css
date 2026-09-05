@@ -1,0 +1,17 @@
+body {
+  color: whitesmoke;
+  background-image: url("./space.gif");
+  background-size: cover;
+  text-align: center;
+  font-family: "Orbitron";
+}
+
+.btn {
+  border: 0cap;
+  padding: 5px 10px 5px 10px;
+  font-family: inherit;
+}
+
+#underline{
+    text-decoration: underline;
+}
