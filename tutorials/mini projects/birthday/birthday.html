@@ -2,16 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="birthday.css" />
   </head>
   <body>
-    <h1>Today is Franky's Birthday.. </h1>
-    <img src="franky.jpeg" id="subject-img">
-    <h3>34 Years Old</h3>
-    <h4>9th March</h4>
+    <div id="header">
+      <h1>Today is Franky's Birthday..</h1>
+      <img src="franky.jpeg" id="subject-img" />
+      <h3 id="age">34 Years Old</h3>
+      <h4 id="date">9th March</h4>
+    </div>
+
+    <div class="gift-container">
+      <h1 class="gift-heading">Here is your gift</h1>
+      <h3 class="hover-text">(Hover over the gift to view)</h3>
+      <div class="gift-img" id="gift-img-1"></div>
+    </div>
+
+    <div class="gift-container">
+      <h1 class="gift-heading">Want to see how you look in mirror</h1>
+      <div class="gift-img" id="gift-img-2"></div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
